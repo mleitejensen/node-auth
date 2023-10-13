@@ -11,4 +11,12 @@
     <button>Sign up</button>
 </form>
 
+<script>
+    const form = document.querySelector("form")
+
+    form.addEventListener("submit", (e) => {
+        e.preventDefault()
+    })
+</script>
+
 <%- include('partials/footer'); -%>
